@@ -1,0 +1,31 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="p-rgt-sec">
+                <div class="p-profile"></div>
+                <div class="description">
+                    <div>
+                        <span class="p-tag">About me</span>
+                        <h1 class="mt-4">Diego Billares</h1>
+                        <p class="p-des mt-3 mb-4">I am a full-stack developer, 
+                        my front-end knowledge is on html, css, bootstrap, typescript, angular framework and in other hand, 
+                        my backend knowledge is on .net, .net Core technologies with c# language.</p>
+                        <a (click)="changeStatesAtributes()" [hidden]="showReadMore" class="p-readmore">Read More <img src="{{linkImageReadMore}}" alt="The read more icon that you want to put here" width="15" class="ml-2"/> </a>
+                    </div>
+
+                    <div [hidden]="hideMoreDescription">
+                        <p class="p-des mt-3 mb-4">
+                            I have a desire to learn continually, whereby, I want to develop my profession skills and here, you can see the trail
+                            that I developed by myself in these years by my count and into the university.
+                        </p>
+                        <h6>
+                            If you want to know more about my work, you can see my portfolio with the button below.
+                        </h6>
+                        <div class="arrow-position"><span class="arrow-right"></span></div>
+                        <button class="btn btn-warning" [routerLink]="['/projects']" [routerLinkActive]="['is-active']">Portfolio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

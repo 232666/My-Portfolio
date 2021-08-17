@@ -1,0 +1,255 @@
+@media (min-width: 250px) and (max-width: 356px) { 
+    .row{
+        text-align: left;
+        box-shadow: 1px 2px 12px 1px #0003;
+        padding: 1% 3% 1% 3%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .row:hover{
+        box-shadow: 4px 8px 24px 4px #0003;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 80%;
+    }
+    
+    h3{
+        font-size: 100%;
+    }
+    
+    .p-des{
+        color: #acacac;
+        font-size: 50%;
+        width: 100%;
+    }
+
+    .btn-warning{
+        box-shadow: 1px 2px 12px 1px #0003;
+        height: 0.5rem;
+        border: 0;
+        border-radius: 0;
+        padding: 7% 7% 17% 4%;
+        text-align: center;
+        font-weight: 500;
+        width: 30%;
+        font-size: 8px;
+        background-color: #90EE90;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    
+    .description-title{
+        margin-top: 2%;
+    }
+    
+    .image-style{
+        height: 10rem;
+        width: 90%;
+        float: left;
+        margin-top: 4%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 357px) and (max-width: 767px) { 
+    .row{
+        text-align: left;
+        box-shadow: 1px 2px 12px 1px #0003;
+        padding: 1% 3% 1% 3%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .row:hover{
+        box-shadow: 4px 8px 24px 4px #0003;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 80%;
+    }
+    
+    h3{
+        font-size: 100%;
+    }
+    
+    .p-des{
+        color: #acacac;
+        font-size: 50%;
+        width: 100%;
+    }
+
+    .btn-warning{
+        box-shadow: 1px 2px 12px 1px #0003;
+        min-height: 2rem;
+        border: 0;
+        border-radius: 0;
+        padding: 3% 7% 3% 7%;
+        font-weight: 500;
+        margin-top: 1rem;
+        width: 30%;
+        font-size: 9px;
+        background-color: #90EE90;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    
+    .description-title{
+        margin-top: 2%;
+    }
+    
+    .image-style{
+        height: 10rem;
+        width: 90%;
+        float: left;
+        margin-top: 4%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .row{
+        text-align: left;
+        box-shadow: 1px 2px 12px 1px #0003;
+        padding: 1% 3% 1% 3%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .row:hover{
+        box-shadow: 4px 8px 24px 4px #0003;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 150%;
+    }
+    
+    h3{
+        font-size: 100%;
+    }
+    
+    .p-des{
+        color: #acacac;
+        width: 80%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .description-title{
+        margin-top: 90%;
+    }
+
+    .btn-warning{
+        box-shadow: 1px 2px 12px 1px #0003;
+        min-height: 2rem;
+        border: 0;
+        border-radius: 0;
+        padding: 3% 7% 3% 7%;
+        font-weight: 500;
+        margin-top: 1rem;
+        width: 30%;
+        background-color: #90EE90;
+    }
+    
+    .image-style{
+        height: 24rem;
+        width: 90%;
+        float: left;
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .row{
+        text-align: left;
+        box-shadow: 1px 2px 12px 1px #0003;
+        padding: 1% 3% 1% 3%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .row:hover{
+        box-shadow: 4px 8px 24px 4px #0003;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 150%;
+    }
+    
+    h3{
+        font-size: 100%;
+    }
+    
+    .p-des{
+        color: #acacac;
+        width: 80%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .p-rgt-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .description-title{
+        margin-top: 2%;
+    }
+
+    .portfolio-description{
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    .div-photo{
+        padding-top: 0%;
+        width: 66%;
+        float: left;
+    }
+
+    .btn-warning{
+        box-shadow: 1px 2px 12px 1px #0003;
+        min-height: 2rem;
+        border: 0;
+        border-radius: 0;
+        padding: 3% 7% 3% 7%;
+        font-weight: 500;
+        margin-top: 1rem;
+        width: 50%;
+        background-color: #90EE90;
+    }
+    
+    .image-style{
+        height: 20rem;
+        width: 100%;
+        margin-top: 4%;
+    }
+}
